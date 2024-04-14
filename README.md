@@ -20,7 +20,7 @@ bulkIPDB is a Python script designed to fetch detailed information about IP addr
 1. Add the IPs to request, as rows within the first column of the CSV file created above.
    
    ![image](https://github.com/jrowleycsa/bulkIPDB/assets/152403367/d5690e88-184c-4b56-b3d6-f443b5787a86)
-3. Run the script with the CSV input file as an argument ie: `bulkIPDB.py ipInput.csv`
+3. Run the script with the CSV input file as an argument ie: `python bulkIPDB.py ipInput.csv`
 4. The script will process each IP address in the CSV file, fetch abuse reports and geolocation information, and output the results to ipResults.csv and ipResults.txt.
    
 ![image](https://github.com/jrowleycsa/bulkIPDB/assets/152403367/66a5a167-5085-4722-98c0-d9c0c6913e9a)
